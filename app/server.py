@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=1-Klk38W6z35B0LYfzahK9xnypx0uI6bQ'
 export_file_name = 'export.pkl'
 
-classes = ['nail_fungal','nail_normal']
+classes = ['fungal_nail','normal_nail']
 path = Path(__file__).parent
 
 app = Starlette()
