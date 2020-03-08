@@ -32,7 +32,7 @@ function analyze() {
      
       var i= `Result = ${response["result"]}`;
        el("result-label").innerHTML =i;
-      document.getElementById("result").href="https://www.healthline.com/health/mouth-ulcers/";
+      document.getElementById("result").href="https://www.healthline.com/health/";
     }
     el("analyze-button").innerHTML = "Analyze";
   };
